@@ -109,6 +109,9 @@ devDependencies:
   svelte:
     specifier: ^5.0.0-next.1
     version: 5.0.0-next.1
+  svelte-adapter-github:
+    specifier: 1.0.0-next.0
+    version: 1.0.0-next.0
   svelte-check:
     specifier: ^3.6.0
     version: 3.6.0(postcss-load-config@5.0.2)(postcss@8.4.32)(svelte@5.0.0-next.1)
@@ -2818,6 +2821,10 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /svelte-adapter-github@1.0.0-next.0:
+    resolution: {integrity: sha512-a2PIoA2UuMJYnhUnh4JkMnC8GgsNgAJzT9Z6UJGG+l4861nlZ6tgU7oF6GHcC19pbA88tM+kxJ3maKgOO0onMg==}
+    dev: true
 
   /svelte-check@3.6.0(postcss-load-config@5.0.2)(postcss@8.4.32)(svelte@5.0.0-next.1):
     resolution: {integrity: sha512-8VfqhfuRJ1sKW+o8isH2kPi0RhjXH1nNsIbCFGyoUHG+ZxVxHYRKcb+S8eaL/1tyj3VGvWYx3Y5+oCUsJgnzcw==}
