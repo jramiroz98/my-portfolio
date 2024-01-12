@@ -76,11 +76,7 @@
 			class="my-8 flex basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md"
 		>
 			<div class="w-60">
-				<img
-					src="https://www.mysmartmenu.store{base}/images/en-phones.png"
-					alt=""
-					class="rounded-md"
-				/>
+				<img src="https://www.mysmartmenu.store/images/en-phones.png" alt="" class="rounded-md" />
 			</div>
 			<div class="basis-1/2">
 				<h2
@@ -112,7 +108,7 @@
 				</div>
 				<div class="w-8">
 					<img
-						src="https://encrypted-tbn0.gstatic.com{base}/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
 						alt=""
 					/>
 				</div>
@@ -139,7 +135,7 @@
 				</div>
 				<div class="w-8">
 					<img
-						src="https://seeklogo.com{base}/images/P/pocketbase-logo-CA73994F09-seeklogo.com.png"
+						src="https://seeklogo.com/images/P/pocketbase-logo-CA73994F09-seeklogo.com.png"
 						alt=""
 					/>
 				</div>
@@ -163,7 +159,7 @@
 			class="my-8 flex basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md"
 		>
 			<div class="w-60">
-				<img src="https://envikoo.com{base}/images/vital3.webp" alt="" class="rounded-md" />
+				<img src="https://envikoo.com/images/vital3.webp" alt="" class="rounded-md" />
 			</div>
 			<div class="basis-1/2">
 				<h2
@@ -195,7 +191,7 @@
 				</div>
 				<div class="w-8">
 					<img
-						src="https://encrypted-tbn0.gstatic.com{base}/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
 						alt=""
 					/>
 				</div>
@@ -226,11 +222,7 @@
 			class="my-8 flex basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md"
 		>
 			<div class="w-60">
-				<img
-					src="https://koalamcg.com{base}/images/white-logo.png"
-					alt=""
-					class="rounded-md bg-black"
-				/>
+				<img src="https://koalamcg.com/images/white-logo.png" alt="" class="rounded-md bg-black" />
 			</div>
 			<div class="basis-1/2">
 				<h2
@@ -327,7 +319,7 @@
 			<Technology
 				name="JavaScript"
 				value={70}
-				image="https://encrypted-tbn0.gstatic.com{base}/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
+				image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
 			/>
 			<Technology
 				name="Tailwind"
@@ -337,7 +329,7 @@
 			<Technology
 				name="Pocketbase"
 				value={80}
-				image="https://seeklogo.com{base}/images/P/pocketbase-logo-CA73994F09-seeklogo.com.png"
+				image="https://seeklogo.com/images/P/pocketbase-logo-CA73994F09-seeklogo.com.png"
 			/>
 			<Technology
 				name="C"
@@ -389,7 +381,7 @@
 			<Technology
 				name="Figma"
 				value={60}
-				image="https://cdn.sanity.io{base}/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format"
+				image="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format"
 			/>
 			<Technology
 				name="Adobe XD"
