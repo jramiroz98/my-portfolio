@@ -49,7 +49,7 @@
 			<div class=" basis-1/2">
 				<img
 					src="{base}/images/profile-picture.jpg"
-					alt="jose ramiro zuniga"
+					alt="jose ramiro zuniga duron"
 					class="w-3/4 rounded-md"
 				/>
 			</div>
