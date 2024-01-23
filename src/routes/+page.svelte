@@ -463,7 +463,7 @@
 		</h2>
 		<p class="mx-auto my-6 w-fit text-center">
 			<a href="https://github.com/jramiroz98" target="_blank" rel="noopener noreferrer">
-				<img src="/images/github-mark.svg" alt="" />
+				<img src="{base}/images/github-mark.svg" alt="" />
 			</a>
 		</p>
 
