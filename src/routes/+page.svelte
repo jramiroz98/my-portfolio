@@ -73,7 +73,7 @@
 		</h2>
 		<!-- MY SMART MENU -->
 		<div
-			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
 		>
 			<div class="w-60">
 				<img src="https://www.mysmartmenu.store/images/en-phones.png" alt="" class="rounded-md" />
@@ -90,7 +90,7 @@
 					user can build their store. It took many iterations and pivots to take it to where it is
 					today.
 				</p>
-				<p class="mt-12 text-right">
+				<p class="mb-12 mt-6 md:mt-12 md:text-right">
 					<a
 						href="https://mysmartmenu.store"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -151,12 +151,24 @@
 						alt=""
 					/>
 				</div>
+				<div class="w-8">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/PayPal_Logo_Icon_2014.svg/1664px-PayPal_Logo_Icon_2014.svg.png"
+						alt=""
+					/>
+				</div>
+				<div class="w-8">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRx7DSg4nCl19gISVmRKabAjuby1wzdjG85rZzqdnn5g&s"
+						alt=""
+					/>
+				</div>
 			</div>
 		</div>
 
 		<!-- VITAL -->
 		<div
-			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
 		>
 			<div class="w-60">
 				<img src="https://envikoo.com/images/vital3.webp" alt="" class="rounded-md" />
@@ -173,7 +185,7 @@
 					log. The data could be shared with desired doctors and family members. This project has
 					been discontinued.
 				</p>
-				<p class="mt-12 text-right">
+				<p class="mb-12 mt-6 md:mt-12 md:text-right">
 					<a
 						href="https://envikoo.com/vital/"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -219,7 +231,7 @@
 
 		<!-- Koala McGiver Site -->
 		<div
-			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
 		>
 			<div class="w-60">
 				<img src="https://koalamcg.com/images/white-logo.png" alt="" class="rounded-md bg-black" />
@@ -234,7 +246,7 @@
 					Koala McGiver is my artist name as a Dj and Producer, just thought my site was worth
 					sharing ;)
 				</p>
-				<p class="mt-12 text-right">
+				<p class="mb-12 mt-6 md:mt-12 md:text-right">
 					<a
 						href="https://koalamcg.com/"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -259,7 +271,7 @@
 
 		<!-- Valu Online Store -->
 		<div
-			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
 		>
 			<div class="w-60">
 				<img
@@ -275,7 +287,7 @@
 					Valu Online Store
 				</h2>
 				<p>One of my first clients needed an online store. Built in wordpress with woocommerce.</p>
-				<p class="mt-12 text-right">
+				<p class="mb-12 mt-6 md:mt-12 md:text-right">
 					<a
 						href="https://valuhn.com/"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -370,6 +382,16 @@
 				name="SQLite"
 				value={75}
 				image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png"
+			/>
+			<Technology
+				name="PayPal API"
+				value={75}
+				image="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/PayPal_Logo_Icon_2014.svg/1664px-PayPal_Logo_Icon_2014.svg.png"
+			/>
+			<Technology
+				name="Stripe API"
+				value={75}
+				image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRx7DSg4nCl19gISVmRKabAjuby1wzdjG85rZzqdnn5g&s"
 			/>
 		</div>
 		<h2
