@@ -16,7 +16,7 @@
 	/>
 </svelte:head>
 
-<div id="main" class="mx-40">
+<div id="main" class="px-6 md:mx-40">
 	<div id="welcome">
 		<div class="relative mb-24">
 			<h1
@@ -27,17 +27,17 @@
 			<img
 				src="https://static.wixstatic.com/media/5c2a62_977f1c7c868445aa87a4a216f219a4d4~mv2.png/v1/crop/x_1,y_0,w_515,h_282/fill/w_384,h_208,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/black-underline-png-3.png"
 				alt=""
-				class="absolute right-80 top-0"
+				class="absolute top-0 md:right-80"
 			/>
 		</div>
-		<div class="flex items-center justify-center space-x-10">
+		<div class="items-center justify-center space-x-10 md:flex">
 			<div class="basis-1/2">
 				<h2
 					class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
 				>
 					My name is Jose Zuniga
 				</h2>
-				<p class="leading-7 [&:not(:first-child)]:mt-6">
+				<p class="my-4 leading-7 [&:not(:first-child)]:mt-6">
 					I'm a creative person, eager to learn and build amazing projects. I enjoy finding
 					problems, ideating a solution and executing it step by step until the project is launched
 					and maintained. My favorite part is designing the UX, as I believe it's the most important
@@ -65,7 +65,7 @@
 			<Badge class=" bg-orange-500">Entrepreneur</Badge>
 		</div>
 	</div>
-	<div id="projects" class="my-24">
+	<div id="projects" class="my-10 md:my-24">
 		<h2
 			class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
 		>
@@ -73,7 +73,7 @@
 		</h2>
 		<!-- MY SMART MENU -->
 		<div
-			class="my-8 flex basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md"
+			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
 		>
 			<div class="w-60">
 				<img src="https://www.mysmartmenu.store/images/en-phones.png" alt="" class="rounded-md" />
@@ -156,7 +156,7 @@
 
 		<!-- VITAL -->
 		<div
-			class="my-8 flex basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md"
+			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
 		>
 			<div class="w-60">
 				<img src="https://envikoo.com/images/vital3.webp" alt="" class="rounded-md" />
@@ -219,7 +219,7 @@
 
 		<!-- Koala McGiver Site -->
 		<div
-			class="my-8 flex basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md"
+			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
 		>
 			<div class="w-60">
 				<img src="https://koalamcg.com/images/white-logo.png" alt="" class="rounded-md bg-black" />
@@ -259,7 +259,7 @@
 
 		<!-- Valu Online Store -->
 		<div
-			class="my-8 flex basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md"
+			class="my-8 basis-1/4 justify-center space-x-8 rounded-lg bg-slate-100 p-10 shadow-md md:flex"
 		>
 			<div class="w-60">
 				<img
@@ -300,7 +300,7 @@
 		>
 			Technologies
 		</h2>
-		<div class="mt-4 grid grid-cols-2 gap-8">
+		<div class="mt-4 grid w-[85vw] gap-8 md:grid-cols-2">
 			<Technology
 				name="Svelte + SvelteKit"
 				value={85}
@@ -377,7 +377,7 @@
 		>
 			Softwares
 		</h2>
-		<div class="mt-4 grid grid-cols-2 gap-8">
+		<div class="mt-4 grid gap-8 md:grid-cols-2">
 			<Technology
 				name="Figma"
 				value={60}
@@ -433,7 +433,7 @@
 
 	<div id="other"></div>
 	<div id="about"></div>
-	<div id="contact" class="my-40">
+	<div id="contact" class="mb-60 mt-20 md:my-40">
 		<h2
 			class="mt-24 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
 		>

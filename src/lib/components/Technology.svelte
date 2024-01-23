@@ -15,7 +15,7 @@
 	<div class="w-12">
 		<img src={image} alt="svelte logo" class="" />
 	</div>
-	<div class="w-80">
+	<div class="w-full">
 		<h3 class="mb-2 scroll-m-20 text-xl font-semibold tracking-tight">{name}</h3>
 		<Progress {value} max={100} class="h-3 w-[100%]" />
 	</div>
