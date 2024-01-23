@@ -16,7 +16,7 @@
 	/>
 </svelte:head>
 
-<div id="main" class="px-6 md:mx-40">
+<div id="main" class="px-6 lg:mx-40">
 	<div id="welcome">
 		<div class="relative mb-24">
 			<h1
@@ -27,10 +27,10 @@
 			<img
 				src="https://static.wixstatic.com/media/5c2a62_977f1c7c868445aa87a4a216f219a4d4~mv2.png/v1/crop/x_1,y_0,w_515,h_282/fill/w_384,h_208,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/black-underline-png-3.png"
 				alt=""
-				class="absolute top-0 md:right-80"
+				class="absolute top-0 md:right-40 lg:right-80"
 			/>
 		</div>
-		<div class="items-center justify-center space-x-10 md:flex">
+		<div class="items-center justify-center lg:flex lg:space-x-10">
 			<div class="basis-1/2">
 				<h2
 					class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
@@ -50,7 +50,7 @@
 				<img
 					src="{base}/images/profile-picture.jpg"
 					alt="jose ramiro zuniga duron"
-					class="w-3/4 rounded-md"
+					class="mx-auto w-3/4 rounded-md text-center"
 				/>
 			</div>
 		</div>
@@ -65,7 +65,7 @@
 			<Badge class=" bg-orange-500">Entrepreneur</Badge>
 		</div>
 	</div>
-	<div id="projects" class="my-10 md:my-24">
+	<div id="projects" class="my-10 lg:my-24">
 		<h2
 			class="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
 		>
@@ -73,7 +73,7 @@
 		</h2>
 		<!-- MY SMART MENU -->
 		<div
-			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md lg:flex lg:space-x-8 lg:p-10"
 		>
 			<div class="w-60">
 				<img src="https://www.mysmartmenu.store/images/en-phones.png" alt="" class="rounded-md" />
@@ -90,7 +90,7 @@
 					user can build their store. It took many iterations and pivots to take it to where it is
 					today.
 				</p>
-				<p class="mb-12 mt-6 md:mt-12 md:text-right">
+				<p class="mb-12 mt-6 lg:mt-12 lg:text-right">
 					<a
 						href="https://mysmartmenu.store"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -100,64 +100,64 @@
 				</p>
 			</div>
 			<div class=" columns-3 space-y-8 rounded-md">
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1280px-Go_Logo_Blue.svg.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img src="https://avatars.githubusercontent.com/u/67109815?s=280&v=4" alt="" />
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://mms.businesswire.com/media/20220301005217/en/1374180/22/Directus-Logo.jpg"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://seeklogo.com/images/P/pocketbase-logo-CA73994F09-seeklogo.com.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/22b74bf9-830b-4bad-88ee-871368b6f6a3.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/PayPal_Logo_Icon_2014.svg/1664px-PayPal_Logo_Icon_2014.svg.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRx7DSg4nCl19gISVmRKabAjuby1wzdjG85rZzqdnn5g&s"
 						alt=""
@@ -168,7 +168,7 @@
 
 		<!-- VITAL -->
 		<div
-			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md lg:flex lg:space-x-8 lg:p-10"
 		>
 			<div class="w-60">
 				<img src="https://envikoo.com/images/vital3.webp" alt="" class="rounded-md" />
@@ -185,7 +185,7 @@
 					log. The data could be shared with desired doctors and family members. This project has
 					been discontinued.
 				</p>
-				<p class="mb-12 mt-6 md:mt-12 md:text-right">
+				<p class="mb-12 mt-6 lg:mt-12 lg:text-right">
 					<a
 						href="https://envikoo.com/vital/"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -201,26 +201,26 @@
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFFekoBix6s7nojVOvAbEDM-RNAIs0LM9oAtXVxst7mg&s"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img src="https://cdn.freebiesupply.com/logos/thumbs/2x/flask-logo.png" alt="" />
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png"
 						alt=""
 					/>
 				</div>
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" alt="" />
 				</div>
 
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/22b74bf9-830b-4bad-88ee-871368b6f6a3.png"
 						alt=""
@@ -231,7 +231,7 @@
 
 		<!-- Koala McGiver Site -->
 		<div
-			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md lg:flex lg:space-x-8 lg:p-10"
 		>
 			<div class="w-60">
 				<img src="https://koalamcg.com/images/white-logo.png" alt="" class="rounded-md bg-black" />
@@ -246,7 +246,7 @@
 					Koala McGiver is my artist name as a Dj and Producer, just thought my site was worth
 					sharing ;)
 				</p>
-				<p class="mb-12 mt-6 md:mt-12 md:text-right">
+				<p class="mb-12 mt-6 lg:mt-12 lg:text-right">
 					<a
 						href="https://koalamcg.com/"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -256,14 +256,14 @@
 				</p>
 			</div>
 			<div class=" columns-3 space-y-8 rounded-md">
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png"
 						alt=""
 					/>
 				</div>
 
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img src="https://avatars.githubusercontent.com/u/67109815?s=280&v=4" alt="" />
 				</div>
 			</div>
@@ -271,7 +271,7 @@
 
 		<!-- Valu Online Store -->
 		<div
-			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md md:flex md:space-x-8 md:p-10"
+			class="my-8 basis-1/4 justify-center rounded-lg bg-slate-100 p-4 shadow-md lg:flex lg:space-x-8 lg:p-10"
 		>
 			<div class="w-60">
 				<img
@@ -287,7 +287,7 @@
 					Valu Online Store
 				</h2>
 				<p>One of my first clients needed an online store. Built in wordpress with woocommerce.</p>
-				<p class="mb-12 mt-6 md:mt-12 md:text-right">
+				<p class="mb-12 mt-6 lg:mt-12 lg:text-right">
 					<a
 						href="https://valuhn.com/"
 						class="mt-12 rounded-md bg-primary px-4 py-2 text-white"
@@ -297,7 +297,7 @@
 				</p>
 			</div>
 			<div class=" columns-3 space-y-8 rounded-md">
-				<div class="w-8">
+				<div class="w-12 lg:w-8">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png"
 						alt=""
@@ -312,7 +312,7 @@
 		>
 			Technologies
 		</h2>
-		<div class="mt-4 grid w-[85vw] gap-8 md:grid-cols-2">
+		<div class="mt-4 grid gap-8 lg:grid-cols-2">
 			<Technology
 				name="Svelte + SvelteKit"
 				value={85}
@@ -399,7 +399,7 @@
 		>
 			Softwares
 		</h2>
-		<div class="mt-4 grid gap-8 md:grid-cols-2">
+		<div class="mt-4 grid gap-8 lg:grid-cols-2">
 			<Technology
 				name="Figma"
 				value={60}
@@ -455,17 +455,23 @@
 
 	<div id="other"></div>
 	<div id="about"></div>
-	<div id="contact" class="mb-60 mt-20 md:my-40">
+	<div id="contact" class="mb-60 mt-20 lg:my-40">
 		<h2
 			class="mt-24 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
 		>
 			Hire me
 		</h2>
+		<p class="mx-auto my-6 w-fit text-center">
+			<a href="https://github.com/jramiroz98" target="_blank" rel="noopener noreferrer">
+				<img src="/images/github-mark.svg" alt="" />
+			</a>
+		</p>
+
 		<div
 			class="mx-auto my-12 flex w-80 justify-center rounded-full outline outline-2 outline-offset-8"
 		>
 			<p
-				class="items-center text-center leading-7 underline [&:not(:first-child)]:mt-6"
+				class="items-center text-center text-xl leading-7 underline [&:not(:first-child)]:mt-6"
 				id="myEmail"
 			>
 				jramiroz98@gmail.com<button
