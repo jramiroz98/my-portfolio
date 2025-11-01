@@ -3,6 +3,7 @@
 	import { Copy, Mail, ExternalLink, TrendingUp, Database, Code } from 'lucide-svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import { base }  from '$app/paths';
 
 	let emailCopied = false;
 	let visible = $state(false);
@@ -300,7 +301,7 @@
 					<div class="relative">
 						<div class="absolute -inset-4 rounded-3xl bg-sky-100 opacity-60"></div>
 						<img
-							src="/images/profile-picture.jpg"
+							src="{base}/images/profile-picture.jpg"
 							alt="José Zúñiga"
 							class="relative h-96 w-96 rounded-3xl object-cover shadow-xl transition-all ease-in  delay-500"
 						/>
@@ -488,7 +489,7 @@
 						class="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all hover:shadow-lg">
 						<div class="relative h-64 overflow-hidden bg-sky-50">
 							<img
-								src={project.image}
+								src={base + project.image}
 								alt={project.title}
 								class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 							/>
@@ -527,7 +528,7 @@
 						class="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all hover:shadow-lg">
 						<div class="relative h-64 overflow-hidden bg-sky-50">
 							<img
-								src={project.image}
+								src={base + project.image}
 								alt={project.title}
 								class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 							/>
@@ -566,7 +567,7 @@
 						class="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all hover:shadow-lg">
 						<div class="relative h-64 overflow-hidden bg-sky-50">
 							<img
-								src={project.image}
+								src={base + project.image}
 								alt={project.title}
 								class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 							/>
