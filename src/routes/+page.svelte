@@ -17,6 +17,10 @@
 		setTimeout(() => emailCopied = false, 2000);
 	};
 
+	function year(){
+		return new Date().getFullYear()
+	}
+
 	const skills = {
 		dataScience: [
 			{ name: 'Machine Learning', level: 85 },
@@ -219,7 +223,119 @@
 </script>
 
 <svelte:head>
-	<title>José Zúñiga - Data Scientist & Full Stack Developer</title>
+	<!-- Primary Meta Tags -->
+	<title>José Ramiro Zúñiga - Data Scientist & Full Stack Developer in Honduras</title>
+	<meta name="title" content="José Ramiro Zúñiga - Data Scientist & Full Stack Developer in Honduras" />
+	<meta name="description" content="Expert Data Scientist and Full Stack Developer in Tegucigalpa, Honduras. Specializing in Machine Learning, Python, SvelteKit, Tableau, Big Data Analytics, and custom web development. Energy Engineer with Masters in Data Science." />
+	<meta name="keywords" content="data scientist Honduras, full stack developer Tegucigalpa, machine learning engineer, Python developer Honduras, web developer Tegucigalpa, Tableau consultant, business intelligence Honduras, SvelteKit developer, data analytics Honduras, software engineer Tegucigalpa, José Zúñiga, energy engineer, big data consultant, AI developer Honduras" />
+	<meta name="author" content="José Ramiro Zúñiga Durón" />
+	<meta name="robots" content="index, follow" />
+	<meta name="language" content="English" />
+	<meta name="revisit-after" content="7 days" />
+
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://jramiroz98.github.io/" />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://jramiroz98.github.io/" />
+	<meta property="og:title" content="José Ramiro Zúñiga - Data Scientist & Full Stack Developer" />
+	<meta property="og:description" content="Expert Data Scientist and Full Stack Developer in Honduras. Specializing in Machine Learning, Python, Big Data, and Web Development." />
+	<meta property="og:image" content="https://jramiroz98.github.io/images/profile-picture.jpg" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:site_name" content="José Zúñiga Portfolio" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://jramiroz98.github.io/" />
+	<meta property="twitter:title" content="José Ramiro Zúñiga - Data Scientist & Full Stack Developer" />
+	<meta property="twitter:description" content="Expert Data Scientist and Full Stack Developer in Honduras. Specializing in Machine Learning, Python, Big Data, and Web Development." />
+	<meta property="twitter:image" content="https://jramiroz98.github.io/images/profile-picture.jpg" />
+
+	<!-- Additional SEO -->
+	<meta name="geo.region" content="HN-FM" />
+	<meta name="geo.placename" content="Tegucigalpa" />
+	<meta name="geo.position" content="14.0723;-87.1921" />
+	<meta name="ICBM" content="14.0723, -87.1921" />
+
+	<!-- Structured Data for SEO -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "José Ramiro Zúñiga Durón",
+			"alternateName": "José Zúñiga",
+			"url": "https://jramiroz98.github.io/",
+			"image": "https://jramiroz98.github.io/images/profile-picture.jpg",
+			"sameAs": [
+			"https://www.linkedin.com/in/j-zuniga/",
+			"https://github.com/jramiroz98"
+		],
+			"jobTitle": "Data Scientist & Full Stack Developer",
+			"worksFor": {
+			"@type": "Organization",
+				"name": "Freelance"
+		},
+			"address": {
+			"@type": "PostalAddress",
+				"addressLocality": "Tegucigalpa",
+				"addressRegion": "Francisco Morazán",
+				"addressCountry": "HN"
+		},
+			"email": "jramiroz98@gmail.com",
+			"knowsAbout": [
+			"Data Science",
+			"Machine Learning",
+			"Full Stack Development",
+			"Python",
+			"SvelteKit",
+			"Big Data",
+			"Tableau",
+			"Business Intelligence",
+			"Energy Engineering"
+		],
+			"alumniOf": {
+			"@type": "EducationalOrganization",
+				"name": "Universidad Complutense de Madrid"
+		}
+		}
+	</script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"name": "José Zúñiga - Data Science & Development Services",
+			"description": "Professional Data Science, Machine Learning, and Full Stack Development services in Honduras",
+			"address": {
+			"@type": "PostalAddress",
+				"addressLocality": "Tegucigalpa",
+				"addressCountry": "Honduras"
+		},
+			"geo": {
+			"@type": "GeoCoordinates",
+				"latitude": "14.0723",
+				"longitude": "-87.1921"
+		},
+			"url": "https://jramiroz98.github.io/",
+			// "telephone": "+504-XXXXXXXX",
+			"email": "jramiroz98@gmail.com",
+			"priceRange": "$$",
+			"areaServed": {
+			"@type": "Country",
+				"name": "Honduras"
+		},
+			"serviceType": [
+			"Data Science Consulting",
+			"Machine Learning Development",
+			"Full Stack Web Development",
+			"Business Intelligence",
+			"Data Analytics",
+			"Web Design"
+		]
+		}
+	</script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
@@ -294,6 +410,11 @@
 						<a href="#projects"
 							 class="rounded-lg border-2 border-gray-200 bg-white px-8 py-4 font-semibold text-gray-900 transition hover:border-sky-500 hover:text-sky-600">
 							View Work
+						</a>
+						<a href="https://www.linkedin.com/in/j-zuniga/" target="_blank" rel="noopener noreferrer"
+							 class=" flex items-center rounded-lg border-2 border-gray-200 bg-white px-8 py-4 font-semibold text-gray-900 transition hover:border-sky-500 hover:text-sky-600">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png" alt="LinkedIn Icon" class="w-5 mr-2"/>
+							LinkedIn
 						</a>
 					</div>
 				</div>
@@ -617,6 +738,11 @@
 				{#if emailCopied}
 					<p class="text-sm text-sky-600">✓ Email copied successfully!</p>
 				{/if}
+				<a href="https://www.linkedin.com/in/j-zuniga/" target="_blank" rel="noopener noreferrer"
+					 class=" flex items-center rounded-lg border-2 border-gray-200 bg-white px-8 py-4 font-semibold text-gray-900 transition hover:border-sky-500 hover:text-sky-600">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png" alt="LinkedIn Icon" class="w-5 mr-2"/>
+					LinkedIn
+				</a>
 			</div>
 		</div>
 	</section>
@@ -624,7 +750,7 @@
 	<!-- Footer -->
 	<footer class="border-t border-gray-200 bg-white py-8">
 		<div class="mx-auto max-w-7xl px-6 text-center text-gray-600 lg:px-8">
-			<p>&copy; 2024 José Ramiro Zúñiga. All rights reserved.</p>
+			<p>&copy; {year()} José Ramiro Zúñiga Durón. All rights reserved.</p>
 		</div>
 	</footer>
 </div>
