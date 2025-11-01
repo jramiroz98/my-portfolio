@@ -245,7 +245,7 @@
 
 	<!-- Hero Section -->
 	<section class="relative overflow-hidden border-b border-gray-100 bg-white">
-		<div class="absolute right-0 top-0 h-full w-1/2 bg-sky-50"></div>
+		<div class="absolute w-full lg:right-0 lg:top-0 h-full lg:w-1/2 bg-sky-50"></div>
 		<div class="relative mx-auto max-w-7xl px-6 py-32 lg:px-8">
 			<div class="grid items-center gap-16 lg:grid-cols-2">
 				<div>
